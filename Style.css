@@ -28,7 +28,7 @@ html body{
 }
 
 #main>h1{
-    margin-top: 10px;
+    margin-top: 40px;
     font-size: 270px;
     padding-left: 70px;
     font-weight: 400;
@@ -58,12 +58,36 @@ font-size: 20px;
 
 #bottombar{
     width: 100%;
-    background-color: red;
     position: absolute;
-    bottom: 0;
-    left: 0;
+    left: 2%;
+    bottom: 5%;
 }
 
 #bottombar h1{
-    font-size: 12px;
+    font-size: 30px;
 }
+
+#main > img{
+    position: absolute;
+   
+}
+
+#main #firstimg{
+    height: 300px;
+    top: 35%;
+    left: 62%;
+    z-index: 999;
+}
+
+#main #secondimg{
+    height: 200px;
+    top: 62%;
+    left: 55%;
+}
+
+#main #thirdimg{
+    height: 200px;
+    top: 50%;
+    left: 47%;
+}
+
